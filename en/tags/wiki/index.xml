@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wiki | Academic</title>
+    <link>/en/tags/wiki/</link>
+      <atom:link href="/en/tags/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <description>wiki</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 19 Oct 2019 20:51:57 -0700</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>wiki</title>
+      <link>/en/tags/wiki/</link>
+    </image>
+    
+    <item>
+      <title>Install Virtualenvwrapper</title>
+      <link>/en/wiki/install-virtualenvwrapper/</link>
+      <pubDate>Sat, 19 Oct 2019 20:51:57 -0700</pubDate>
+      <guid>/en/wiki/install-virtualenvwrapper/</guid>
+      <description>&lt;p&gt;&lt;em&gt;TL;DR&lt;/em&gt; excerpt from 
+&lt;a href=&#34;https://virtualenvwrapper.readthedocs.io/en/latest/install.html#basic-installation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;virtualenvwrapper doc webpage&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install virtualenvwrapper
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An alternative to installing it into the global site-packages is to add it to 
+&lt;a href=&#34;https://docs.python.org/install/index.html#alternate-installation-the-user-scheme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;your user local directory&lt;/a&gt; (usually ~/.local).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install --user virtualenvwrapper
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;important-shell-startup-file&#34;&gt;Important: Shell Startup File&lt;/h2&gt;
+&lt;p&gt;Add three lines to your shell startup file (&lt;code&gt;.bashrc&lt;/code&gt;, &lt;code&gt;.profile&lt;/code&gt;, etc.) to set the location where the virtual environments should live, the location of your development project directories, and the location of the script installed with this package:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick-Start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Run: &lt;code&gt;workon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;A list of environments, empty, is printed.&lt;/li&gt;
+&lt;li&gt;Run: &lt;code&gt;mkvirtualenv temp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;A new environment, &lt;code&gt;temp&lt;/code&gt; is created and activated.&lt;/li&gt;
+&lt;li&gt;Run: &lt;code&gt;workon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;This time, the &lt;code&gt;temp&lt;/code&gt; environment is included.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

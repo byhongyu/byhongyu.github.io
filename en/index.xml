@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic</title>
+    <link>/en/</link>
+      <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 06 Jul 2020 14:25:53 -0700</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Academic</title>
+      <link>/en/</link>
+    </image>
+    
+    <item>
+      <title>Scientific Plots</title>
+      <link>/en/post/scientific-plots/</link>
+      <pubDate>Mon, 06 Jul 2020 14:25:53 -0700</pubDate>
+      <guid>/en/post/scientific-plots/</guid>
+      <description>&lt;h1 id=&#34;create-scientific-plots&#34;&gt;Create scientific plots&lt;/h1&gt;
+&lt;h2 id=&#34;use-python&#34;&gt;use Python&lt;/h2&gt;
+&lt;h3 id=&#34;seabornset_context&#34;&gt;seaborn.set_context&lt;/h3&gt;
+&lt;h3 id=&#34;scienceplots&#34;&gt;SciencePlots&lt;/h3&gt;
+&lt;h2 id=&#34;use-originlab&#34;&gt;use OriginLab&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kwik</title>
+      <link>/en/post/kwik/</link>
+      <pubDate>Sun, 05 Jul 2020 13:55:26 -0700</pubDate>
+      <guid>/en/post/kwik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My_project_1</title>
+      <link>/en/project/my_project_1/</link>
+      <pubDate>Sun, 05 Jul 2020 02:48:49 -0700</pubDate>
+      <guid>/en/project/my_project_1/</guid>
+      <description>&lt;h1 id=&#34;project-1&#34;&gt;project 1&lt;/h1&gt;
+&lt;p&gt;thkis is thskl soi al dproejklcjt shj
+tjekljsltk
+sjtklsjts
+jkdtls
+jklsjoithjkls&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Post1</title>
+      <link>/en/post/post1/</link>
+      <pubDate>Sun, 05 Jul 2020 01:58:41 -0700</pubDate>
+      <guid>/en/post/post1/</guid>
+      <description>&lt;h1 id=&#34;this-is-a-test&#34;&gt;This is a test&lt;/h1&gt;
+&lt;p&gt;tehkjltjl
+jtke&lt;/p&gt;
+&lt;h2 id=&#34;test2&#34;&gt;test2&lt;/h2&gt;
+&lt;p&gt;jtekjs
+jtkljsktsslkjts
+jkltjs&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Use Jupyter in Venv</title>
+      <link>/en/wiki/use-jupyter-in-venv/</link>
+      <pubDate>Sat, 19 Oct 2019 21:12:38 -0700</pubDate>
+      <guid>/en/wiki/use-jupyter-in-venv/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ python -m venv projectname
+$ source projectname/bin/activate
+(venv) $ pip install ipykernel
+(venv) $ ipython kernel install --user --name=projectname
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Install Virtualenvwrapper</title>
+      <link>/en/wiki/install-virtualenvwrapper/</link>
+      <pubDate>Sat, 19 Oct 2019 20:51:57 -0700</pubDate>
+      <guid>/en/wiki/install-virtualenvwrapper/</guid>
+      <description>&lt;p&gt;&lt;em&gt;TL;DR&lt;/em&gt; excerpt from 
+&lt;a href=&#34;https://virtualenvwrapper.readthedocs.io/en/latest/install.html#basic-installation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;virtualenvwrapper doc webpage&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install virtualenvwrapper
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An alternative to installing it into the global site-packages is to add it to 
+&lt;a href=&#34;https://docs.python.org/install/index.html#alternate-installation-the-user-scheme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;your user local directory&lt;/a&gt; (usually ~/.local).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install --user virtualenvwrapper
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;important-shell-startup-file&#34;&gt;Important: Shell Startup File&lt;/h2&gt;
+&lt;p&gt;Add three lines to your shell startup file (&lt;code&gt;.bashrc&lt;/code&gt;, &lt;code&gt;.profile&lt;/code&gt;, etc.) to set the location where the virtual environments should live, the location of your development project directories, and the location of the script installed with this package:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick-Start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Run: &lt;code&gt;workon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;A list of environments, empty, is printed.&lt;/li&gt;
+&lt;li&gt;Run: &lt;code&gt;mkvirtualenv temp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;A new environment, &lt;code&gt;temp&lt;/code&gt; is created and activated.&lt;/li&gt;
+&lt;li&gt;Run: &lt;code&gt;workon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;This time, the &lt;code&gt;temp&lt;/code&gt; environment is included.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Day00</title>
+      <link>/en/100-days-challenge/day00/</link>
+      <pubDate>Fri, 11 Oct 2019 23:43:19 -0700</pubDate>
+      <guid>/en/100-days-challenge/day00/</guid>
+      <description>&lt;h2 id=&#34;writing-is-hard&#34;&gt;Writing is hard&lt;/h2&gt;
+&lt;p&gt;What mark do you want to leave beyond your daily work?&lt;/p&gt;
+&lt;p&gt;I do want to improve my photography skills, but I&amp;rsquo;m not&lt;/p&gt;
+&lt;p&gt;Drawing, writing, public speaking are&lt;/p&gt;
+&lt;p&gt;For the coming 100 days, I&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/en/daily/20191027/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/daily/20191027/</guid>
+      <description>&lt;p&gt;#Why Vowpal Wabbit?&lt;/p&gt;
+&lt;p&gt;Vowpal Wabbit is a machine learning system which pushes the frontier of machine learning with techniques such as online, hashing, allreduce, reductions, learning2search, active, and interactive learning. There is a specific focus on reinforcement learning with several contextual bandit algorithms implemented and the online nature lending to the problem well. Vowpal Wabbit is a destination for implementing and maturing state of the art algorithms with performance in mind.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/VowpalWabbit/vowpal_wabbit/wiki/Examples&#34;&gt;https://github.com/VowpalWabbit/vowpal_wabbit/wiki/Examples&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://users.umiacs.umd.edu/~hal/tmp/multiclassVW.html&#34;&gt;http://users.umiacs.umd.edu/~hal/tmp/multiclassVW.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/en/interesting-reads/interesting-reads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/interesting-reads/interesting-reads/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://12factor.net/zh_cn/build-release-run&#34;&gt;https://12factor.net/zh_cn/build-release-run&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/en/interesting-reads/keep-secrets-and-configuration-out-of-version-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/interesting-reads/keep-secrets-and-configuration-out-of-version-control/</guid>
+      <description>&lt;h1 id=&#34;keep-secrets-and-configuration-out-of-version-control&#34;&gt;Keep secrets and configuration out of version control&lt;/h1&gt;
+&lt;p&gt;You really don&amp;rsquo;t want to leak your AWS secret key or Postgres username and password on Github. Enough said — see the Twelve Factor App principles on this point. Here&amp;rsquo;s one way to do this:&lt;/p&gt;
+&lt;p&gt;Store your secrets and config variables in a special file
+Create a .env file in the project root folder. Thanks to the .gitignore, this file should never get committed into the version control repository. Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;h2 id=&#34;example-env-file&#34;&gt;example .env file&lt;/h2&gt;
+&lt;p&gt;DATABASE_URL=postgres://username:password@localhost:5432/dbname
+AWS_ACCESS_KEY=myaccesskey
+AWS_SECRET_ACCESS_KEY=mysecretkey
+OTHER_VARIABLE=something
+Use a package to load these variables automatically.
+If you look at the stub script in src/data/make_dataset.py, it uses a package called python-dotenv to load up all the entries in this file as environment variables so they are accessible with os.environ.get. Here&amp;rsquo;s an example snippet adapted from the python-dotenv documentation:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# src/data/dotenv_example.py
+import os
+from dotenv import load_dotenv, find_dotenv
+
+# find .env automagically by walking up directories until it&#39;s found
+dotenv_path = find_dotenv()
+
+# load up the entries as environment variables
+load_dotenv(dotenv_path)
+
+database_url = os.environ.get(&amp;quot;DATABASE_URL&amp;quot;)
+other_variable = os.environ.get(&amp;quot;OTHER_VARIABLE&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;aws-cli-configuration&#34;&gt;AWS CLI configuration&lt;/h2&gt;
+&lt;p&gt;When using Amazon S3 to store data, a simple method of managing AWS access is to set your access keys to environment variables. However, managing mutiple sets of keys on a single machine (e.g. when working on multiple projects) it is best to use a credentials file, typically located in ~/.aws/credentials. A typical file might look like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[default]
+aws_access_key_id=myaccesskey
+aws_secret_access_key=mysecretkey
+
+[another_project]
+aws_access_key_id=myprojectaccesskey
+aws_secret_access_key=myprojectsecretkey
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can add the profile name when initialising a project; assuming no applicable environment variables are set, the profile credentials will be used be default.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>giterror: &#39;src refspec master does not match any&#39;</title>
+      <link>/en/wiki/git_error_refspec-master-doesnt-match-any/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/wiki/git_error_refspec-master-doesnt-match-any/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Q: Message &amp;lsquo;src refspec master does not match any&amp;rsquo; when pushing commits in Git&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A： Maybe you just need to commit:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir repo &amp;amp;&amp;amp; cd repo
+git remote add origin /path/to/origin.git
+git add .
+# Oops! Never committed!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;$error: src refspec master does not match any.$&lt;/p&gt;
+&lt;p&gt;to solve:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git commit -m &amp;quot;initial commit&amp;quot;
+git push origin master
+Success!
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>gitkeep</title>
+      <link>/en/wiki/gitkeep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/wiki/gitkeep/</guid>
+      <description>&lt;p&gt;&lt;code&gt;.gitkeep&lt;/code&gt; isn’t documented, because it’s not a feature of Git.&lt;/p&gt;
+&lt;p&gt;Git 
+&lt;a href=&#34;https://git.wiki.kernel.org/index.php/Git_FAQ#Can_I_add_empty_directories.3F&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cannot add a completely empty directory&lt;/a&gt;. People who want to track empty directories in Git have created the convention of putting files called &lt;code&gt;.gitkeep&lt;/code&gt; in these directories. The file could be called anything; Git assigns no special significance to this name.&lt;/p&gt;
+&lt;p&gt;There is a competing convention of adding a &lt;code&gt;.gitignore&lt;/code&gt; file to the empty directories to get them tracked, but some people see this as confusing since the goal is to keep the empty directories, not ignore them; &lt;code&gt;.gitignore&lt;/code&gt; is also used to list files that should be ignored by Git when looking for untracked files.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

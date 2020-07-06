@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Academic</title>
+    <link>/en/100-days-challenge/</link>
+      <atom:link href="/en/100-days-challenge/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 11 Oct 2019 23:43:19 -0700</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>/en/100-days-challenge/</link>
+    </image>
+    
+    <item>
+      <title>Day00</title>
+      <link>/en/100-days-challenge/day00/</link>
+      <pubDate>Fri, 11 Oct 2019 23:43:19 -0700</pubDate>
+      <guid>/en/100-days-challenge/day00/</guid>
+      <description>&lt;h2 id=&#34;writing-is-hard&#34;&gt;Writing is hard&lt;/h2&gt;
+&lt;p&gt;What mark do you want to leave beyond your daily work?&lt;/p&gt;
+&lt;p&gt;I do want to improve my photography skills, but I&amp;rsquo;m not&lt;/p&gt;
+&lt;p&gt;Drawing, writing, public speaking are&lt;/p&gt;
+&lt;p&gt;For the coming 100 days, I&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

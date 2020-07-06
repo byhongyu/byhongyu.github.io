@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Academic</title>
+    <link>/en/post/</link>
+      <atom:link href="/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 06 Jul 2020 14:25:53 -0700</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>/en/post/</link>
+    </image>
+    
+    <item>
+      <title>Scientific Plots</title>
+      <link>/en/post/scientific-plots/</link>
+      <pubDate>Mon, 06 Jul 2020 14:25:53 -0700</pubDate>
+      <guid>/en/post/scientific-plots/</guid>
+      <description>&lt;h1 id=&#34;create-scientific-plots&#34;&gt;Create scientific plots&lt;/h1&gt;
+&lt;h2 id=&#34;use-python&#34;&gt;use Python&lt;/h2&gt;
+&lt;h3 id=&#34;seabornset_context&#34;&gt;seaborn.set_context&lt;/h3&gt;
+&lt;h3 id=&#34;scienceplots&#34;&gt;SciencePlots&lt;/h3&gt;
+&lt;h2 id=&#34;use-originlab&#34;&gt;use OriginLab&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kwik</title>
+      <link>/en/post/kwik/</link>
+      <pubDate>Sun, 05 Jul 2020 13:55:26 -0700</pubDate>
+      <guid>/en/post/kwik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Post1</title>
+      <link>/en/post/post1/</link>
+      <pubDate>Sun, 05 Jul 2020 01:58:41 -0700</pubDate>
+      <guid>/en/post/post1/</guid>
+      <description>&lt;h1 id=&#34;this-is-a-test&#34;&gt;This is a test&lt;/h1&gt;
+&lt;p&gt;tehkjltjl
+jtke&lt;/p&gt;
+&lt;h2 id=&#34;test2&#34;&gt;test2&lt;/h2&gt;
+&lt;p&gt;jtekjs
+jtkljsktsslkjts
+jkltjs&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

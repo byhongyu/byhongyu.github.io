@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interesting-reads | Academic</title>
+    <link>/en/interesting-reads/</link>
+      <atom:link href="/en/interesting-reads/index.xml" rel="self" type="application/rss+xml" />
+    <description>Interesting-reads</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Interesting-reads</title>
+      <link>/en/interesting-reads/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/en/interesting-reads/interesting-reads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/interesting-reads/interesting-reads/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://12factor.net/zh_cn/build-release-run&#34;&gt;https://12factor.net/zh_cn/build-release-run&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/en/interesting-reads/keep-secrets-and-configuration-out-of-version-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/interesting-reads/keep-secrets-and-configuration-out-of-version-control/</guid>
+      <description>&lt;h1 id=&#34;keep-secrets-and-configuration-out-of-version-control&#34;&gt;Keep secrets and configuration out of version control&lt;/h1&gt;
+&lt;p&gt;You really don&amp;rsquo;t want to leak your AWS secret key or Postgres username and password on Github. Enough said — see the Twelve Factor App principles on this point. Here&amp;rsquo;s one way to do this:&lt;/p&gt;
+&lt;p&gt;Store your secrets and config variables in a special file
+Create a .env file in the project root folder. Thanks to the .gitignore, this file should never get committed into the version control repository. Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;h2 id=&#34;example-env-file&#34;&gt;example .env file&lt;/h2&gt;
+&lt;p&gt;DATABASE_URL=postgres://username:password@localhost:5432/dbname
+AWS_ACCESS_KEY=myaccesskey
+AWS_SECRET_ACCESS_KEY=mysecretkey
+OTHER_VARIABLE=something
+Use a package to load these variables automatically.
+If you look at the stub script in src/data/make_dataset.py, it uses a package called python-dotenv to load up all the entries in this file as environment variables so they are accessible with os.environ.get. Here&amp;rsquo;s an example snippet adapted from the python-dotenv documentation:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# src/data/dotenv_example.py
+import os
+from dotenv import load_dotenv, find_dotenv
+
+# find .env automagically by walking up directories until it&#39;s found
+dotenv_path = find_dotenv()
+
+# load up the entries as environment variables
+load_dotenv(dotenv_path)
+
+database_url = os.environ.get(&amp;quot;DATABASE_URL&amp;quot;)
+other_variable = os.environ.get(&amp;quot;OTHER_VARIABLE&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;aws-cli-configuration&#34;&gt;AWS CLI configuration&lt;/h2&gt;
+&lt;p&gt;When using Amazon S3 to store data, a simple method of managing AWS access is to set your access keys to environment variables. However, managing mutiple sets of keys on a single machine (e.g. when working on multiple projects) it is best to use a credentials file, typically located in ~/.aws/credentials. A typical file might look like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[default]
+aws_access_key_id=myaccesskey
+aws_secret_access_key=mysecretkey
+
+[another_project]
+aws_access_key_id=myprojectaccesskey
+aws_secret_access_key=myprojectsecretkey
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can add the profile name when initialising a project; assuming no applicable environment variables are set, the profile credentials will be used be default.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dailies | Academic</title>
+    <link>/en/daily/</link>
+      <atom:link href="/en/daily/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dailies</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Dailies</title>
+      <link>/en/daily/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/en/daily/20191027/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/daily/20191027/</guid>
+      <description>&lt;p&gt;#Why Vowpal Wabbit?&lt;/p&gt;
+&lt;p&gt;Vowpal Wabbit is a machine learning system which pushes the frontier of machine learning with techniques such as online, hashing, allreduce, reductions, learning2search, active, and interactive learning. There is a specific focus on reinforcement learning with several contextual bandit algorithms implemented and the online nature lending to the problem well. Vowpal Wabbit is a destination for implementing and maturing state of the art algorithms with performance in mind.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/VowpalWabbit/vowpal_wabbit/wiki/Examples&#34;&gt;https://github.com/VowpalWabbit/vowpal_wabbit/wiki/Examples&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://users.umiacs.umd.edu/~hal/tmp/multiclassVW.html&#34;&gt;http://users.umiacs.umd.edu/~hal/tmp/multiclassVW.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

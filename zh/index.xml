@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>中文版</title>
+    <link>/zh/</link>
+      <atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
+    <description>中文版</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 19 Oct 2019 21:12:38 -0700</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>中文版</title>
+      <link>/zh/</link>
+    </image>
+    
+    <item>
+      <title>TSA</title>
+      <link>/zh/post/tsa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/post/tsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Use Jupyter in Venv</title>
+      <link>/zh/wiki/use-jupyter-in-venv/</link>
+      <pubDate>Sat, 19 Oct 2019 21:12:38 -0700</pubDate>
+      <guid>/zh/wiki/use-jupyter-in-venv/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ python -m venv projectname
+$ source projectname/bin/activate
+(venv) $ pip install ipykernel
+(venv) $ ipython kernel install --user --name=projectname
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Install Virtualenvwrapper</title>
+      <link>/zh/wiki/install-virtualenvwrapper/</link>
+      <pubDate>Sat, 19 Oct 2019 20:51:57 -0700</pubDate>
+      <guid>/zh/wiki/install-virtualenvwrapper/</guid>
+      <description>&lt;p&gt;&lt;em&gt;TL;DR&lt;/em&gt; excerpt from 
+&lt;a href=&#34;https://virtualenvwrapper.readthedocs.io/en/latest/install.html#basic-installation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;virtualenvwrapper doc webpage&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install virtualenvwrapper
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An alternative to installing it into the global site-packages is to add it to 
+&lt;a href=&#34;https://docs.python.org/install/index.html#alternate-installation-the-user-scheme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;your user local directory&lt;/a&gt; (usually ~/.local).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install --user virtualenvwrapper
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;important-shell-startup-file&#34;&gt;Important: Shell Startup File&lt;/h2&gt;
+&lt;p&gt;Add three lines to your shell startup file (&lt;code&gt;.bashrc&lt;/code&gt;, &lt;code&gt;.profile&lt;/code&gt;, etc.) to set the location where the virtual environments should live, the location of your development project directories, and the location of the script installed with this package:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick-Start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Run: &lt;code&gt;workon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;A list of environments, empty, is printed.&lt;/li&gt;
+&lt;li&gt;Run: &lt;code&gt;mkvirtualenv temp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;A new environment, &lt;code&gt;temp&lt;/code&gt; is created and activated.&lt;/li&gt;
+&lt;li&gt;Run: &lt;code&gt;workon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;This time, the &lt;code&gt;temp&lt;/code&gt; environment is included.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Day00</title>
+      <link>/zh/100-days-challenge/day00/</link>
+      <pubDate>Fri, 11 Oct 2019 23:43:19 -0700</pubDate>
+      <guid>/zh/100-days-challenge/day00/</guid>
+      <description>&lt;h2 id=&#34;writing-is-hard&#34;&gt;Writing is hard&lt;/h2&gt;
+&lt;p&gt;What mark do you want to leave beyond your daily work?&lt;/p&gt;
+&lt;p&gt;I do want to improve my photography skills, but I&amp;rsquo;m not&lt;/p&gt;
+&lt;p&gt;Drawing, writing, public speaking are&lt;/p&gt;
+&lt;p&gt;For the coming 100 days, I&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Post1</title>
+      <link>/zh/post/post1/</link>
+      <pubDate>Fri, 11 Oct 2019 11:50:43 -0700</pubDate>
+      <guid>/zh/post/post1/</guid>
+      <description>&lt;h1 id=&#34;anomaly-detection-in-time-series-data&#34;&gt;Anomaly detection in time series data&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/zh/daily/20191027/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/daily/20191027/</guid>
+      <description>&lt;p&gt;Why Vowpal Wabbit?&lt;/p&gt;
+&lt;p&gt;Vowpal Wabbit is a machine learning system which pushes the frontier of machine learning with techniques such as online, hashing, allreduce, reductions, learning2search, active, and interactive learning. There is a specific focus on reinforcement learning with several contextual bandit algorithms implemented and the online nature lending to the problem well. Vowpal Wabbit is a destination for implementing and maturing state of the art algorithms with performance in mind.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/VowpalWabbit/vowpal_wabbit/wiki/Examples&#34;&gt;https://github.com/VowpalWabbit/vowpal_wabbit/wiki/Examples&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://users.umiacs.umd.edu/~hal/tmp/multiclassVW.html&#34;&gt;http://users.umiacs.umd.edu/~hal/tmp/multiclassVW.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/zh/interesting-reads/interesting-reads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/interesting-reads/interesting-reads/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://12factor.net/zh_cn/build-release-run&#34;&gt;https://12factor.net/zh_cn/build-release-run&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/zh/interesting-reads/keep-secrets-and-configuration-out-of-version-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/interesting-reads/keep-secrets-and-configuration-out-of-version-control/</guid>
+      <description>&lt;h1 id=&#34;keep-secrets-and-configuration-out-of-version-control&#34;&gt;Keep secrets and configuration out of version control&lt;/h1&gt;
+&lt;p&gt;You really don&amp;rsquo;t want to leak your AWS secret key or Postgres username and password on Github. Enough said — see the Twelve Factor App principles on this point. Here&amp;rsquo;s one way to do this:&lt;/p&gt;
+&lt;p&gt;Store your secrets and config variables in a special file
+Create a .env file in the project root folder. Thanks to the .gitignore, this file should never get committed into the version control repository. Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;h2 id=&#34;example-env-file&#34;&gt;example .env file&lt;/h2&gt;
+&lt;p&gt;DATABASE_URL=postgres://username:password@localhost:5432/dbname
+AWS_ACCESS_KEY=myaccesskey
+AWS_SECRET_ACCESS_KEY=mysecretkey
+OTHER_VARIABLE=something
+Use a package to load these variables automatically.
+If you look at the stub script in src/data/make_dataset.py, it uses a package called python-dotenv to load up all the entries in this file as environment variables so they are accessible with os.environ.get. Here&amp;rsquo;s an example snippet adapted from the python-dotenv documentation:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# src/data/dotenv_example.py
+import os
+from dotenv import load_dotenv, find_dotenv
+
+# find .env automagically by walking up directories until it&#39;s found
+dotenv_path = find_dotenv()
+
+# load up the entries as environment variables
+load_dotenv(dotenv_path)
+
+database_url = os.environ.get(&amp;quot;DATABASE_URL&amp;quot;)
+other_variable = os.environ.get(&amp;quot;OTHER_VARIABLE&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;aws-cli-configuration&#34;&gt;AWS CLI configuration&lt;/h2&gt;
+&lt;p&gt;When using Amazon S3 to store data, a simple method of managing AWS access is to set your access keys to environment variables. However, managing mutiple sets of keys on a single machine (e.g. when working on multiple projects) it is best to use a credentials file, typically located in ~/.aws/credentials. A typical file might look like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[default]
+aws_access_key_id=myaccesskey
+aws_secret_access_key=mysecretkey
+
+[another_project]
+aws_access_key_id=myprojectaccesskey
+aws_secret_access_key=myprojectsecretkey
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can add the profile name when initialising a project; assuming no applicable environment variables are set, the profile credentials will be used be default.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/zh/post/tsa1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/post/tsa1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>giterror: &#39;src refspec master does not match any&#39;</title>
+      <link>/zh/wiki/git_error_refspec-master-doesnt-match-any/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/wiki/git_error_refspec-master-doesnt-match-any/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Q: Message &amp;lsquo;src refspec master does not match any&amp;rsquo; when pushing commits in Git&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A： Maybe you just need to commit:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir repo &amp;amp;&amp;amp; cd repo
+git remote add origin /path/to/origin.git
+git add .
+# Oops! Never committed!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;$error: src refspec master does not match any.$&lt;/p&gt;
+&lt;p&gt;to solve:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git commit -m &amp;quot;initial commit&amp;quot;
+git push origin master
+Success!
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>gitkeep</title>
+      <link>/zh/wiki/gitkeep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/wiki/gitkeep/</guid>
+      <description>&lt;p&gt;&lt;code&gt;.gitkeep&lt;/code&gt; isn’t documented, because it’s not a feature of Git.&lt;/p&gt;
+&lt;p&gt;Git 
+&lt;a href=&#34;https://git.wiki.kernel.org/index.php/Git_FAQ#Can_I_add_empty_directories.3F&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cannot add a completely empty directory&lt;/a&gt;. People who want to track empty directories in Git have created the convention of putting files called &lt;code&gt;.gitkeep&lt;/code&gt; in these directories. The file could be called anything; Git assigns no special significance to this name.&lt;/p&gt;
+&lt;p&gt;There is a competing convention of adding a &lt;code&gt;.gitignore&lt;/code&gt; file to the empty directories to get them tracked, but some people see this as confusing since the goal is to keep the empty directories, not ignore them; &lt;code&gt;.gitignore&lt;/code&gt; is also used to list files that should be ignored by Git when looking for untracked files.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
