@@ -20,6 +20,7 @@
       <description>&lt;h1 id=&#34;create-scientific-plots&#34;&gt;Create scientific plots&lt;/h1&gt;
 &lt;h2 id=&#34;use-python&#34;&gt;use Python&lt;/h2&gt;
 &lt;h3 id=&#34;seabornset_context&#34;&gt;seaborn.set_context&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;report&lt;/code&gt;, &lt;code&gt;poster&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;scienceplots&#34;&gt;SciencePlots&lt;/h3&gt;
 &lt;h2 id=&#34;use-originlab&#34;&gt;use OriginLab&lt;/h2&gt;
 </description>
